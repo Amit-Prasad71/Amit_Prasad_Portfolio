@@ -1,0 +1,407 @@
+p{
+  font-size: 1.25rem;
+}
+
+.col-lg-6, .col{
+  padding:0;
+}
+.color-blue{
+  color:#148DCA;
+}
+
+.big-heading{
+  font-weight:500;
+  font-size: 2.5rem;
+  margin:2rem 0;
+}
+.medium-heading{
+  font-size: 3rem;
+  margin:2rem 0;
+}
+.small-heading{
+  font-size: 1.5rem;
+  margin:2rem 0;
+}
+.text{
+  font-size: 1.5rem;
+  margin:2rem 0;
+}
+
+.muted-text{
+  font-weight:400;
+  color:#BBBBBB;
+}
+.font-notosans{
+  font-family: "Noto Sans HK",sans-serif;
+}
+.font-opensans{
+  font-family: "Open Sans",sans-serif;
+}
+.font-montserrat{
+  font-family: "Montserrat",sans-serif;
+}
+.font-caveat{
+  font-family: 'Caveat', cursive;
+}
+
+/* title section */
+
+#title{
+  padding:2rem 5rem;
+  text-align:center;
+}
+
+.title-text{
+  padding:6rem 0;
+}
+
+.title-icon{
+  font-size: 1.75rem;
+  color:#148DCA;
+  margin:2rem 0;
+}
+.title-image{
+  height:200px;
+  width:200px;
+  margin:2rem 0;
+}
+/* navbar */
+.navbar{
+  padding:1rem 0;
+  margin-bottom: 8rem;
+}
+.nav-link{
+  font-size: 0.90rem;
+  font-weight: 500;
+}
+.toggler-icon{
+  color:#148DCA;
+  font-size: 0.95rem;
+}
+.nav-item{
+  margin:0 0.5rem;
+}
+.link1{
+    color:black;
+}
+.link1:hover{
+    color:#148DCA;
+}
+.link2{
+    color:#148DCA;
+    border:solid 1px;
+
+    border-radius: 1rem;
+}
+.link2:hover{
+    color:white;
+    background-color: #148DCA;
+}
+
+
+/* aboutme section */
+#aboutme{
+  padding:10rem 20rem 5rem;
+  text-align:center;
+  color:white;
+  background-color: #148DCA;
+}
+.aboutme-heading{
+  font-size: 2.5rem;
+  margin:2rem 0;
+  font-weight: 600;
+}
+.aboutme-text{
+  font-size: 1.25rem;
+  line-height:1.5;
+  font-weight: 400;
+}
+.aboutme-imgdiv{
+  text-align:center;
+}
+.aboutme-image{
+  height:270px;
+  width:270px;
+}
+
+/* skills section */
+#skills{
+  text-align:center;
+  position: relative;
+}
+.card-text{
+  font-size:1.15rem;
+}
+.card-div{
+  padding:0 3rem;
+}
+.card-margin{
+  margin:1rem 0 2.5rem;
+}
+.skills-color-margin{
+  background-color:#148DCA;
+  padding:5rem;
+  margin-bottom:40rem;
+}
+.skills-div{
+  padding:0 20rem 10rem;
+  position: absolute;
+  top:0;
+}
+.skills-heading{
+  font-size: 1.75rem;
+  margin:2rem 0;
+  font-weight: 600;
+}
+.skills-icon{
+  padding:3rem 0 1.5rem;
+  color:#148DCA;
+}
+.skills-curved-border1{
+  border-radius: 1rem 0 0 1rem;
+}
+.skills-curved-border2{
+  border-radius: 0 1rem 1rem 0;
+}
+
+/* education section */
+#education{
+  padding:5rem 15rem 4rem;
+  text-align:center;
+}
+.education-heading{
+  font-size: 2.25rem;
+  margin:2rem 0;
+}
+.education-div{
+  background-color:#148DCA;
+  color:white;
+  margin:3rem 0.25rem;
+  border-radius: 0.75rem;
+  padding:3rem 1rem;
+  text-align: left;
+}
+.education-icon{
+  margin-bottom:2rem;
+}
+.education-text-heading1{
+    margin-bottom:1rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-bottom: 28.8px;
+}
+.education-text-heading{
+    margin-bottom:1rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+
+}
+.education-text-subheading1{
+    margin-bottom:1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.education-text-subheading2{
+    margin-bottom:0.5rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* footer */
+#footer{
+  background-color:#148DCA;
+  color:white;
+  padding:3rem 5rem 1rem;
+  text-align:center;
+}
+.footer-heading{
+    margin:2rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+
+}
+.footer-text{
+  margin:1rem 0 0;
+  font-size:1rem;
+  font-weight: 300;
+  color:#d4d4d4;
+}
+.footer-icon{
+  margin:2rem 0.75rem 4rem;
+  padding:0.5rem;
+  color:white;
+}
+.footer-icon:hover{
+  background-color:white;
+  color:#148DCA;
+  border-radius:2rem;
+}
+.copyright-text{
+  font-size:0.85rem;
+}
+/*Media Queries*/
+
+@media only screen and (max-width:1367px){
+  #education{
+    padding:4rem 4rem 4rem;
+    text-align:center;
+  }
+  .skills-div{
+    padding:0 4rem 10rem;
+    position: absolute;
+    top:0;
+  }
+}
+@media only screen and (max-width:1025px){
+    .small-heading{
+      font-size: 1.5rem;
+      margin:2rem 0;
+    }
+    .big-heading{
+      font-weight:500;
+      font-size: 2.5rem;
+      margin:2rem 0;
+    }
+    .navbar{
+      padding:1rem 0;
+      margin-bottom: 8rem;
+    }
+    #title{
+      padding:2rem;
+      text-align:center;
+    }
+    #aboutme{
+      padding:8rem 1rem;
+      text-align:center;
+      color:white;
+      background-color: #148DCA;
+    }
+    .aboutme-heading{
+      font-size: 2.25rem;
+      margin:2rem 0;
+      font-weight: 600;
+    }
+    .aboutme-text{
+      font-size: 1rem;
+      line-height:1.5;
+      font-weight: 400;
+    }
+    .skills-div{
+      padding:0 2rem 10rem;
+      position: absolute;
+      top:0;
+    }
+    .card-text{
+      font-size:1.25rem;
+    }
+    .skills-heading{
+      font-size: 1.75rem;
+      margin:2rem 0;
+      font-weight: 600;
+    }
+    #education{
+      padding:4rem 1rem 4rem;
+      text-align:center;
+    }
+    .education-text-heading1{
+        margin-bottom:1rem;
+        font-size: 1.5rem;
+        font-weight: 550;
+        padding-bottom: 28.8px;
+    }
+    .education-text-heading{
+        margin-bottom:1rem;
+        font-size: 1.5rem;
+        font-weight: 550;
+
+    }
+    .education-text-subheading1{
+        margin-bottom:1rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .education-text-subheading2{
+        margin-bottom:0.5rem;
+        font-size: 0.75rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .small-heading{
+      font-size: 1.25rem;
+      margin:2rem 0;
+    }
+    .big-heading{
+      font-weight:500;
+      font-size: 2.25rem;
+      margin:2rem 0;
+    }
+    .navbar{
+      padding:1rem 0;
+      margin-bottom: 2rem;
+    }
+    #title{
+      padding:1rem 2rem 2rem;
+      text-align:center;
+    }
+    #aboutme{
+      padding:4rem 1rem;
+      text-align:center;
+      color:white;
+      background-color: #148DCA;
+    }
+    .aboutme-heading{
+      font-size: 2.25rem;
+      margin:2rem 0;
+      font-weight: 600;
+    }
+    .aboutme-text{
+      font-size: 1rem;
+      line-height:1.5;
+      font-weight: 400;
+    }
+    .skills-div{
+      padding:0 0 10rem;
+      position: absolute;
+      top:0;
+    }
+    .card-text{
+      font-size:1rem;
+    }
+    .skills-heading{
+      font-size: 1.5rem;
+      margin:2rem 0;
+      font-weight: 600;
+    }
+    #education{
+      padding:38rem 1rem 4rem;
+      text-align:center;
+    }
+    .education-text-heading1{
+        margin-bottom:1rem;
+        font-size: 1.5rem;
+        font-weight: 550;
+        padding-bottom: 28.8px;
+    }
+    .education-text-heading{
+        margin-bottom:1rem;
+        font-size: 1.5rem;
+        font-weight: 550;
+
+    }
+    .education-text-subheading1{
+        margin-bottom:1rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .education-text-subheading2{
+        margin-bottom:0.5rem;
+        font-size: 0.75rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+}
